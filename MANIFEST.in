@@ -1,1 +1,1 @@
-include dependecyparser/data-types.json
+recursive-include dependecyparser *
