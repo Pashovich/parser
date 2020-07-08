@@ -1,5 +1,8 @@
 import spacy
 import json
+import os
+
+
 def singleton(class_):
     instances = dict()
 
@@ -10,6 +13,7 @@ def singleton(class_):
 
     return instance
 
+
 @singleton
 class ModelLoader:
     def loadModel(self, path):
@@ -18,5 +22,5 @@ class ModelLoader:
 
     @staticmethod
     def loadProperties():
-        with open('data-types.json') as file:
+        with open(os.path.join(os.path.dirname(__file__), 'data-types.json'), 'r') as file:
             return json.load(file)
