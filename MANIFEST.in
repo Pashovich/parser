@@ -1,1 +1,1 @@
-include parser/*.json
+include dependecyparser/*.json

@@ -20,7 +20,8 @@ setup_args = dict(
 )
 
 install_requires = [
-    'spacy==2.1.9'
+    'spacy==2.1.9',
+    'pymorphy2'
 ]
 
 if __name__ == '__main__':
