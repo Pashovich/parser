@@ -1,1 +1,1 @@
-include dependecyparser/*.json
+include dependecyparser/data-types.json
