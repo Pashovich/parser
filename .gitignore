@@ -19,3 +19,4 @@ node_modules
 /build
 /dist
 /parser.egg-info
+/dependency_parser.egg-info
