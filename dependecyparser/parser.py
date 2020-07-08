@@ -1,5 +1,4 @@
 from .tokens import TokenSpecialCase
-from model import ModelLoader
 from copy import deepcopy
 
 class SpacyParser():
@@ -7,7 +6,7 @@ class SpacyParser():
     adjectiveDependencies = []
     dataStructure = {}
 
-    def __init__(self, modelLoader : ModelLoader):
+    def __init__(self, modelLoader):
         self._model = modelLoader.model
         tempData = modelLoader.loadProperties()
         self.nounDependencies = tempData['nounDependencies']
