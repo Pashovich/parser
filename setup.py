@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 
 setup_args = dict(
-    name='dependency-parser',
+    name='dependencyparser',
     version='0.0.1',
     description='Dependency parser',
     long_description_content_type="text/markdown",
