@@ -1,0 +1,3 @@
+class TokenSpecialCase:
+    text = ''
+    children = []

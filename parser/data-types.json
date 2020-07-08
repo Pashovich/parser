@@ -1,0 +1,9 @@
+{
+    "nounDependencies" : ["obj", "obn", "nsubj", "conj"],
+    "adjectiveDependencies" : ["amod"],
+    "dataStructure" : {
+        "object": "",
+        "action": "",
+        "property": ""
+    }
+}
